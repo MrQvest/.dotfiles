@@ -99,6 +99,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias dnfupdate="sudo dnf update && flatpak update"
-alias dnfupre="sudo dnf update --refresh && flatpak update"
-alias dnfupdate-refresh="sudo dnf update --refresh && flatpak update"
