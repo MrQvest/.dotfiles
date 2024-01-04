@@ -1,2 +1,2 @@
 # link dotfiles
-ln -sf "$HOME/.dotfiles/mpv" "$HOME/.config"
+ln -s $HOME/.dotfiles/mpv/* "$HOME/.config/mpv/"
