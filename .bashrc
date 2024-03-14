@@ -26,6 +26,7 @@ unset rc
 
 # aliases
 alias mpv='flatpak run io.mpv.Mpv'
-alias vi='nvim'
-alias vim='nvim'
-alias l='ls -lah --color=auto'
+alias vi='flatpak run io.neovim.nvim'
+alias vim='flatpak run io.neovim.nvim'
+alias nvim='flatpak run io.neovim.nvim'
+alias ls='ls -lah --color=auto'
