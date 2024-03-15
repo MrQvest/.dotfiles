@@ -1,4 +1,4 @@
-function vi --wraps='flatpak run io.neovim.nvim' --description 'alias vi=flatpak run io.neovim.nvim'
-  flatpak run io.neovim.nvim $argv
+function vi --wraps=nvim --description 'alias vi=nvim'
+  nvim $argv
         
 end

@@ -11,7 +11,13 @@
 # ridden in every subshell.
 
 test -s ~/.alias && . ~/.alias || true
+
+# aliases
 alias vi='nvim'
 alias vim='nvim'
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias top='htop'
+alias neofetch='fastfetch --config neofetch'
+
+# starship Prompt has to be in the very end
+eval "$(starship init bash)"
