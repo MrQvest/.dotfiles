@@ -1,4 +1,4 @@
-function top --wraps=htop --description 'alias top=htop'
-  htop $argv
+function top --wraps=btop --description 'alias top=btop'
+  btop $argv
         
 end
