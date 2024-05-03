@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Game;
+Comment=Mindustry: A sandbox tower-defense game.
+Exec=gamemoderun /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mindustry.sh com.github.Anuken.Mindustry
+Icon=com.github.Anuken.Mindustry
+Name=Mindustry
+Terminal=false
+Type=Application
+Version=1.0
+X-Flatpak=com.github.Anuken.Mindustry
+PrefersNonDefaultGPU=true
