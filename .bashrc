@@ -31,6 +31,3 @@ alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias top='btop'
 alias neofetch='fastfetch --config neofetch'
 alias mpv='flatpak run io.mpv.Mpv'
-
-# starship Prompt has to be in the very end
-eval "$(starship init bash)"
