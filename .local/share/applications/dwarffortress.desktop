@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Game;
+Comment[pt_BR]=A single-player fantasy game.
+Comment=A single-player fantasy game.
+Exec=env gamemoderun dwarffortress
+GenericName[pt_BR]=Dwarf Fortress
+GenericName=Dwarf Fortress
+Icon=/usr/share/pixmaps/dwarffortress.png
+MimeType=
+Name[pt_BR]=Dwarf Fortress
+Name=Dwarf Fortress
+Path=
+PrefersNonDefaultGPU=true
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
