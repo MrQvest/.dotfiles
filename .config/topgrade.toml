@@ -40,6 +40,7 @@
 
 # Don't ask for confirmations (no default value)
 # assume_yes = true
+  assume_yes = true
 
 # Do not ask to retry failed steps (default: false)
 # no_retry = true
@@ -118,6 +119,7 @@
 
 # Arguments to pass dnf when updating packages
 # dnf_arguments = "--refresh"
+  dnf_arguments = "--refresh"
 
 # aura_aur_arguments = "-kx"
 
