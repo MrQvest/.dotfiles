@@ -1,5 +1,5 @@
 [Desktop Action Editor]
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=sh org.wesnoth.Wesnoth -c 'wesnoth -e  >/dev/null 2>&1'
+Exec=gamemoderun flatpak run --branch=stable --arch=x86_64 --command=sh org.wesnoth.Wesnoth -c 'wesnoth -e  >/dev/null 2>&1'
 Name[pt_BR]=Editor de mapas
 Name=Map Editor
 
