@@ -33,3 +33,7 @@ alias dotfiles='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 export XDG_DATA_DIRS="/home/linuxbrew/.linuxbrew/share:$XDG_DATA_DIRS"
+
+# Set preferred terminal-based text editor
+export VISUAL="$EDITOR"
+export EDITOR=nvim
